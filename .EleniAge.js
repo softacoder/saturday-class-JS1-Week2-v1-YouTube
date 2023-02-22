@@ -6,3 +6,12 @@
 
 // Eleni is old enough to drive
 
+const   drivingLicense = 18;
+
+const   age = 88;
+
+if (age>= drivingLicense) {
+console.log('Elani is old enough to drive');
+} else {
+console.log('Elani is not old enough to drive');
+}
