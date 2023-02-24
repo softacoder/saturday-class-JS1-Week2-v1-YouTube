@@ -8,3 +8,17 @@ Modify the program to also print out the sum of the numbers from 3 to 7 at the e
 7
 total: 25
 
+let count = 3;
+sum = 
+        while (count <= 7) {
+            console.log(count);
+            count = count +1;
+        } 
+
+// I understand how i can use sum on its own but not in a function combined with others. 
+// var a = 3; 
+// var b = 4; 
+// etc
+// var c = a + b; 
+// https://stackoverflow.com/questions/7053511/javascript-sum-values 
+// Will ask for clarification at class.
