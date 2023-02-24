@@ -6,3 +6,9 @@ Write a program that prints out to the console the numbers from 3 to 7 (includin
 6
 7
 
+ let count = 3;
+
+        while (count <= 7) {
+            console.log(count);
+            count = count +1;
+        }
