@@ -104,12 +104,39 @@ The algorithm will repeat steps 3 and 4 until all the cereal and milk has been e
 
 9. Predict the behaviour of a short program that uses conditional statements and/or iteration
    ?
+   Example 1.
+   if (true){
+   console.log("yes it is true")
+   }
+
+   This program will print yes it is true if the condition is true. If the condistion is false it will not print.
 
 10. Evaluate basic expressions using comparison and logical operators.
     ?
 
+    Comparison operators — operators that compare values and return true or false. The operators include: >, <, >=, <=, ===, and !==.
+    Logical operators — operators that combine multiple boolean expressions or values and provide a single boolean output. The operators include: &&, ||, and !.
+
 11. Implement a solution to a problem that requires using conditional statements.
     ?
 
+const filmCertificate = 18:
+const filmTitle = "Pulp Fiction";
+const age = 13
+
+if (age >= filmCertificate) {
+console.log('You are old enough to watch ${filmTitle}!');
+else {
+console.log('You're not old enough to watch this film!')
+}
+}
+
 12. Implement a solution to a problem that requires using iteration.
     ?
+    Example 1.
+    let count = 1;
+
+        while (count <= 10) {
+            console.log(count);
+            count = count +1;
+        }
