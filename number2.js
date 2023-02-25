@@ -8,12 +8,14 @@ Modify the program to also print out the sum of the numbers from 3 to 7 at the e
 7
 total: 25
 
-let count = 3;
-sum = 
+let currentNumber = 3;
+sum = 0
         while (count <= 7) {
-            console.log(count);
-            count = count +1;
+            console.log(currentNUmber +1);
+                currentNumber = currentNumber +1;
+             
         } 
+console.log ("total:, sum);
 
 // I understand how i can use sum on its own but not in a function combined with others. 
 // var a = 3; 
